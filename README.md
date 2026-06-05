@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="images/coffee_logo.png" alt="Coffee DWBI Logo" width="160" />
+  <img width="160" height="160" alt="coffee_logo" src="https://github.com/user-attachments/assets/28c07f12-fb76-4f0e-bca1-9d4dc6262d16" />
 </div>
 
 <h1 align="center">☕ Coffee Orders Data Warehouse & Business Intelligence Solution</h1>
@@ -84,7 +84,7 @@ A **Snowflake Schema** was used to support hierarchical product analysis and red
 - DimProductCategory  
 
 <p align="center">
-  <img src="images/snowflake-schema.png" width="900"/>
+  <img width="900" height="900" alt="snowflake-schema" src="https://github.com/user-attachments/assets/28600c4f-79cc-46c8-aae5-ee7c31a5c531" />
 </p>
 
 ### Key Features
@@ -128,7 +128,8 @@ Data is loaded into:
 - FactSales Table  
 
 <p align="center">
-  <img src="images/ssis-etl.png" width="900"/>
+  <img width="576" height="611" alt="Extract" src="https://github.com/user-attachments/assets/ff19f2d6-925f-4a40-a2f3-76baa5c9fce4" />
+  <img width="603" height="559" alt="Transform-Load" src="https://github.com/user-attachments/assets/fb8f6c75-fc8d-4d88-89a1-8e1f60190536" />
 </p>
 
 ---
@@ -143,23 +144,6 @@ Data profiling was performed to ensure data quality by analyzing:
 - Min/Max values
 - Distinct counts
 - Data patterns
-
----
-
-## ⚙️ Accumulating Fact Table
-
-The FactSales table was enhanced with lifecycle tracking:
-
-| Column | Description |
-|--------|-------------|
-| accm_txn_create_time | Order creation time |
-| accm_txn_complete_time | Order completion time |
-| txn_process_time_hours | Processing duration |
-
-### Benefits
-- Order lifecycle tracking
-- Process efficiency analysis
-- Operational performance insights
 
 ---
 
@@ -183,7 +167,7 @@ Category → SubCategory → Product
 Country → City → Address  
 
 <p align="center">
-  <img src="images/cube-hierarchy.png" width="900"/>
+  <img width="604" height="658" alt="cube-hierarchy" src="https://github.com/user-attachments/assets/e8cd66d8-ec68-47fe-b2ba-1c76be1c0a8a" />
 </p>
 
 ---
@@ -218,18 +202,12 @@ The data warehouse was connected to **Power BI Desktop** and published to Power 
 
 ---
 
-## 📌 Report 1 – Matrix Analysis
+### 📌 Report 1 – Matrix Analysis
 
 - Product-wise sales by year  
 - Performance comparison  
 
-<p align="center">
-  <img src="images/powerbi-report1.png" width="900"/>
-</p>
-
----
-
-## 📌 Report 2 – Geographic Analysis
+### 📌 Report 2 – Geographic Analysis
 
 Features:
 - Cascading slicers (Country → City → Address)
@@ -237,33 +215,18 @@ Features:
 - Line chart trends
 - Donut chart distribution
 
-<p align="center">
-  <img src="images/powerbi-report2.png" width="900"/>
-</p>
-
----
-
-## 📌 Report 3 – Drill-Down Analysis
+### 📌 Report 3 – Drill-Down Analysis
 
 - Category → Product → Time hierarchy
 - Interactive exploration
-
-<p align="center">
-  <img src="images/powerbi-report3.png" width="900"/>
-</p>
-
----
 
 ## 📌 Report 4 – Drill-Through Dashboard
 
 Deep-dive analytics view
 
 <p align="center">
-  <img src="images/powerbi-dashboard.png" width="900"/>
-</p>
+  <img width="900" height="900" alt="powerbi-dashboard" src="https://github.com/user-attachments/assets/3405f228-ccae-4b98-8ed4-48e490e184ff" />
 
-<p align="center">
-  <img src="images/drillthrough-page.png" width="900"/>
 </p>
 
 ---
@@ -298,10 +261,6 @@ This project was developed as part of:
 
 **IT3021 – Data Warehousing and Business Intelligence**  
 Sri Lanka Institute of Information Technology (SLIIT)
-
-### 👤 Student
-**P. M. R. D. Karunarathna**  
-BSc (Hons) IT – Data Science Specialization
 
 ---
 
