@@ -130,7 +130,7 @@ Data is loaded into:
       <sub><b>Extract Phase</b>: Data is extracted from Excel, text files, and SQL sources.</sub>
     </td>
     <td align="center">
-      <img width="603" height="559" alt="Transform-Load" src="https://github.com/user-attachments/assets/fb8f6c75-fc8d-4d88-89a1-8e1f60190536" /><br>
+      <img width="576" height="611" alt="Transform-Load" src="https://github.com/user-attachments/assets/fb8f6c75-fc8d-4d88-89a1-8e1f60190536" /><br>
       <sub><b>Transform & Load Phase</b>: Data is cleaned, transformed, and loaded into the warehouse.</sub>
     </td>
   </tr>
@@ -209,26 +209,27 @@ The data warehouse was connected to **Power BI Desktop** and published to Power 
 ### 📌 Report 1 – Matrix Analysis
 
 - Product-wise sales by year  
-- Performance comparison  
+- Identification of top-performing and low-performing products
 
-### 📌 Report 2 – Geographic Analysis
+### 📌 Report 2 – Cascading Slicers with Visuals
 
-- Cascading slicers (Country → City → Address)
-- Map visualization
-- Line chart trends
-- Donut chart distribution
+- Cascading slicers (Country → City → Address) for interactive filtering
+- Regional sales distribution using map visualization
+- Trend analysis using line charts
+- Category-wise distribution using donut charts
 
 ### 📌 Report 3 – Drill-Down Analysis
 
-- Category → Product → Time hierarchy
-- Interactive exploration
+- Hierarchical navigation (Category → Subcategory → Product & Year → Quarter → Month)
+- Enables step-by-step exploration of sales data
+- Identifies detailed performance patterns at different granularity levels
 
-## 📌 Report 4 – Drill-Through Dashboard
+## 📌 Report 4 – Drill-Through Details
 
-Deep-dive analytics view
+This dashboard enables users to move from summary-level insights to transaction-level detailed analysis by selecting specific filters or visual elements and drilling through to a dedicated analysis page.
 
 <p>
-  <img width="50%" alt="powerbi-dashboard" src="https://github.com/user-attachments/assets/3405f228-ccae-4b98-8ed4-48e490e184ff" />
+  <img width="75%" alt="powerbi-dashboard" src="https://github.com/user-attachments/assets/3405f228-ccae-4b98-8ed4-48e490e184ff" />
 </p>
 
 ---
