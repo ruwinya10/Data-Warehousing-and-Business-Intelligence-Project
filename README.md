@@ -1,7 +1,3 @@
-<div align="center">
-  <img width="160" height="160" alt="coffee_logo" src="https://github.com/user-attachments/assets/28c07f12-fb76-4f0e-bca1-9d4dc6262d16" />
-</div>
-
 <h1 align="center">☕ Coffee Orders Data Warehouse & Business Intelligence Solution</h1>
 
 <p align="center">
@@ -83,8 +79,8 @@ A **Snowflake Schema** was used to support hierarchical product analysis and red
 - DimProductSubCategory  
 - DimProductCategory  
 
-<p align="center">
-  <img width="900" height="900" alt="snowflake-schema" src="https://github.com/user-attachments/assets/28600c4f-79cc-46c8-aae5-ee7c31a5c531" />
+<p>
+  <img width="50%" alt="snowflake-schema" src="https://github.com/user-attachments/assets/28600c4f-79cc-46c8-aae5-ee7c31a5c531" />
 </p>
 
 ### Key Features
@@ -127,10 +123,18 @@ Data is loaded into:
 - Dimension Tables  
 - FactSales Table  
 
-<p align="center">
-  <img width="576" height="611" alt="Extract" src="https://github.com/user-attachments/assets/ff19f2d6-925f-4a40-a2f3-76baa5c9fce4" />
-  <img width="603" height="559" alt="Transform-Load" src="https://github.com/user-attachments/assets/fb8f6c75-fc8d-4d88-89a1-8e1f60190536" />
-</p>
+<table>
+  <tr>
+    <td align="center">
+      <img width="576" height="611" alt="Extract" src="https://github.com/user-attachments/assets/ff19f2d6-925f-4a40-a2f3-76baa5c9fce4" /><br>
+      <sub><b>Extract Phase</b>: Data is extracted from Excel, text files, and SQL sources.</sub>
+    </td>
+    <td align="center">
+      <img width="603" height="559" alt="Transform-Load" src="https://github.com/user-attachments/assets/fb8f6c75-fc8d-4d88-89a1-8e1f60190536" /><br>
+      <sub><b>Transform & Load Phase</b>: Data is cleaned, transformed, and loaded into the warehouse.</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -166,8 +170,8 @@ Category → SubCategory → Product
 **Customer Hierarchy:**  
 Country → City → Address  
 
-<p align="center">
-  <img width="604" height="658" alt="cube-hierarchy" src="https://github.com/user-attachments/assets/e8cd66d8-ec68-47fe-b2ba-1c76be1c0a8a" />
+<p>
+  <img width="50%" alt="cube-hierarchy" src="https://github.com/user-attachments/assets/e8cd66d8-ec68-47fe-b2ba-1c76be1c0a8a" />
 </p>
 
 ---
@@ -209,7 +213,6 @@ The data warehouse was connected to **Power BI Desktop** and published to Power 
 
 ### 📌 Report 2 – Geographic Analysis
 
-Features:
 - Cascading slicers (Country → City → Address)
 - Map visualization
 - Line chart trends
@@ -224,9 +227,8 @@ Features:
 
 Deep-dive analytics view
 
-<p align="center">
-  <img width="900" height="900" alt="powerbi-dashboard" src="https://github.com/user-attachments/assets/3405f228-ccae-4b98-8ed4-48e490e184ff" />
-
+<p>
+  <img width="50%" alt="powerbi-dashboard" src="https://github.com/user-attachments/assets/3405f228-ccae-4b98-8ed4-48e490e184ff" />
 </p>
 
 ---
@@ -261,11 +263,3 @@ This project was developed as part of:
 
 **IT3021 – Data Warehousing and Business Intelligence**  
 Sri Lanka Institute of Information Technology (SLIIT)
-
----
-
-<div align="center">
-
-⭐ If you like this project, consider giving it a star!
-
-</div>
